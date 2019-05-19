@@ -131,7 +131,6 @@ a:active {
   box-shadow: 15px 15px 10px -5px rgba(0, 0, 0, .8);
   padding: 18% 24%;
   margin: 105px 0 60px;
-  text-align: left;
 }
 
 .sights a:link {
@@ -139,7 +138,10 @@ a:active {
 }
 
 .sights__detail, .sights__title {
-  color: #ffffff;
+  background: #00000059;
+  color: #fff;
+  padding: 1% 2%;
+  text-align: center;
 }
 
 .sights__detail {
@@ -199,7 +201,6 @@ a:active {
   text-align: center;
 }
 
-
 @media (max-width: 1024px) {
 
   .primary-content,
@@ -214,7 +215,6 @@ a:active {
 }
 
 @media(max-width: 768px) {
-
   .main-header {
     max-height: 380px;
     padding: 50px 25px 0;

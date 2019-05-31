@@ -8,12 +8,9 @@ a:link {
   text-decoration: none;
 }
 
+a:hover,
 a:visited {
-  color: #bbd1e7;
-}
-
-a:hover {
-  color: rgba(255, 169, 73, .4);
+  color: #3f6d9b;
 }
 
 a:active {
@@ -67,7 +64,7 @@ a:active {
 }
 
 .subtitle {
-  color: rgba(255, 255, 255, 1);
+  color: #fff;
   font-family: 'Abril Fatface', cursive;
   font-size: 5.625rem;
   font-weight: normal;
@@ -90,7 +87,7 @@ a:active {
 
 .title {
   border-bottom: 2px solid;
-  color: white;
+  color: #fff;
   font-size: 1.625rem;
   font-weight: 200;
   letter-spacing: .065em;
@@ -125,7 +122,7 @@ a:active {
   margin: 105px 0 60px;
 }
 
-.sights a:link {
+.sights a {
   color: #bbd1e7;
 }
 
@@ -139,6 +136,10 @@ a:active {
 .sights__detail {
   font-size: 1.3em;
   font-weight: 400;
+}
+
+.sights__detail a:hover {
+  color: rgba(255, 169, 73);
 }
 
 .sights__title {
